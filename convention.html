@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+        background-color: rgb(132, 153, 160);
+        border-color: rgb(181, 25, 25);
+        font-size:20px;
+  padding:20px;
+  width:300px;
+  line-height:1.8;
+        }
+        input[type=submit]{
+        background-color: pink;
+        cursor: pointer;
+        }
+        input[type=submit]:hover{
+        background-color: green;
+        }
+        input[type=cancel]{
+        background-color: pink;
+        width: 50px;
+        cursor: pointer;
+        }
+        input[type=cancel]:hover{
+        background-color: green;
+        }
+
+        </style>
+</head>
+<body>
+	<!-- <form action="convention1.html" method"get"> -->
+	<body background="https://t3.ftcdn.net/jpg/00/31/30/60/360_F_31306048_2kvZTRcwm8X1b2zy607S7m8HYKZLmuAe.jpg"style="image-resolution: 720dpi;background-repeat:no-repeat;background-size:cover;"></body> 
+   <center><h1><a href="https://www.google.com/search?q=kec+convention+center+details&client=firefox-b-d&biw=1536&bih=731&tbm=lcl&sxsrf=AJOqlzVGEvDVuF5z8IIKwaBeppWmJL03ig%3A1677503351984&ei=d6v8Y-_ZO_2ZseMPuqaKoAM&oq=kec+convention+center+det&gs_lcp=Cg1nd3Mtd2l6LWxvY2FsEAEYADIFCCEQoAEyBQghEKABMgQIIRAVOgQIIxAnUMoDWJwVYNAkaABwAHgAgAHuAYgBzAWSAQUwLjQuMZgBAKABAcABAQ&sclient=gws-wiz-local">Convention center map details(click here!)<center></h1></a>
+    
+	<h1 style="color:blue"><center>CONVENTION CENTER FORM</center></h1>
+	<form text-align="center">
+	<fieldset>
+	<legend style="color:purple">DETAILS</legend>
+	<fieldset>
+	<legend style="color:purple">Personal Details</legend>
+	<div>
+	<label for="name">Name:</label>
+	<input type="text" placeholder="enter your name">
+	</div>
+	<br>
+	<div>
+	<label for="email">E-mail:</label>
+	<input type="text" placeholder="abc@gmail.com">
+	</div>
+	<br>
+	<div>
+	<label for="number">Phone number:</label>
+	<input type="text" placeholder="enter your phone number" value="+91" enabled>
+	</div>
+	</fieldset>
+	<br>
+	<fieldset>
+	<legend style="color:purple">Faulty Details</legend>
+	<div>
+	<label for="Street Address">Address</label>
+	<textarea name="Enter your address" rows="4" cols="25"></textarea>
+	</div>
+	<br>
+	<div>
+	<label for="city">City</label>
+	<input type="text" placeholder="enter your city">
+	</div>
+	<br>
+	<div>
+	<label for="code">Postal/ Zip code</label>
+	<input type="text">
+	</div>
+	<br>
+	<div>
+	<label>Department</label>
+	<select>
+	<option>IT</option>
+	<option>CSE</option>
+	<option>ECE</option>
+    <option>EEE</option>
+    <option>Mech</option>
+	<option>other</option>
+	</select>
+	</div>
+	<br>
+	<div>
+	<fieldset>
+	<legend style="color:purple">Time Details</legend>
+	<div>
+	<label>Required Time</label><br>
+	<input type="checkbox">1-2 hours<br>
+	<input type="checkbox">2-3 hours<br>
+	<input type="checkbox">3-4 hours <br>
+	<input type="checkbox">halfday<br>
+    <input type="checkbox">fullday<br>
+	</div>
+    <div>
+        <label>Session</label><br>
+        <input type="radio" name="session" id="high" value="High"> Morning<br>
+    <input type="radio" name="session" id="high" value="High">Evening
+    </div>
+	<br>
+	<!-- <input type="submit" value="submit">
+	<input type="submit" value="cancel"> -->
+	<button type="submit" onclick="alert('Successfully submitted!!')">SUBMIT</button>
+	<button type="submit" onclick="alert('Cancellation Successful!!')">CANCEL</button>
+	<br>
+	</fieldset>
+	</fieldset>
+	</form>
+</body>
+</html>
